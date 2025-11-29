@@ -3,7 +3,7 @@
 Este repositório contém o código-fonte do meu portfólio pessoal. Desenvolvido para apresentar minhas habilidades e projetos na área de desenvolvimento web, servindo como uma vitrine para minhas competências em tecnologia.
 
     🔗 Acesso Rápido
-    Visualizar Online (GitHub Pages): https://brunoalmeida.github.io/portfolio/
+    Visualizar Online (GitHub Pages): https://br6nin.github.io/Portfolio-Bruno-Almeida/
 
 Contato: bruno.almeidaferrer@gmail.com  |   linkedin.com/in/brunolab  | +5585981809105
 
