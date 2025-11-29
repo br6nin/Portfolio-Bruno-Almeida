@@ -59,7 +59,7 @@ nav a:hover {
     color: #1a074e;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1600px) {
     
     header {
         flex-direction: column; 
