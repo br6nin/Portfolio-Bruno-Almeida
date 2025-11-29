@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+@keyframes float {
+    
+    0% {
+        transform: translateY(0); 
+    }
+  
+    50% {
+        transform: translateY(-10px);
+    }
+    
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a074e;
+    padding: 20px 50px 20px 0px;
+    text-align: center;
+    box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.425);
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    padding: 8px 10px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    background-color: white;
+    transition-duration: 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+    color: #1a074e;
+}
+
+@media (max-width: 768px) {
+    
+    header {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px 15px;
+        
+    }
+    
+    nav {
+        flex-direction: column; 
+        text-align: center;
+        margin-top: 15px; 
+    }
+    
+    nav a {
+        margin: 10px 0; 
+    }
+    
+   div p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif;
+    color: white;
+    font-size: 15px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-bottom: 30px;
+    
+}
+
+    .fotodeperfil {
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 90%;
+    }
+
+    #projetos li{
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+
+    #contato li{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+}
+
+body {
+    background: radial-gradient(ellipse at bottom, #1a074e 0%, #000000 100%);
+    margin-top: 180px;
+    min-height: 100vh;
+    
+}
+
+.fotodeperfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #f6f3ff;
+    margin-top: 50px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    animation: 
+        float 
+        3s 
+        ease-in-out 
+        infinite;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+p{
+    border: #2e0c8bbd 2px solid;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+footer nav li {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+div > ul > a > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #f6f3ff;
+    margin-top: 50px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+div > ul > a > img:hover{
+    background-color: #1a074e;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    
+}
+
+div > ul > li {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.contato li {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contato li a {
+    color: #00acee;
+    text-decoration: none;
+}
+
+.contato li a:hover {
+    text-decoration: underline;
+}
+
+.contato img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
