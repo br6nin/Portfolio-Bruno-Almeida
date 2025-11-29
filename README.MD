@@ -29,11 +29,12 @@ Como desenvolvedor em constante aprendizado, planejo expandir este portfólio fu
     Acessibilidade: Implementação de técnicas avançadas para garantir que o portfólio seja utilizável por todos.
 
 📂 Estrutura do Repositório
-/index.html: O arquivo principal com o conteúdo e estrutura do portfólio.
 
-/styles/: Contém todos os arquivos de estilo CSS.
+    /index.html: O arquivo principal com o conteúdo e estrutura do portfólio.
 
-/public/: Armazena imagens e outros recursos multimídia.
+    /styles/: Contém todos os arquivos de estilo CSS.
+
+    /public/: Armazena imagens e outros recursos multimídia.
 
 🤝 Como Contribuir ou Entrar em Contato
 Sinta-se à vontade para explorar o código! Se tiver sugestões ou quiser relatar algum problema (issue), seu feedback é bem-vindo.
